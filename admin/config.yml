@@ -14,4 +14,5 @@ collections:
       fields:
             - {label: "Cake Name", name: "title", widget: "string"}
             - {label: "Cake Photo", name: "image", widget: "image"}
+            - {label: "Price", name: "price", widget: "string", hint: "e.g. ₹800"}
             - {label: "WhatsApp Message", name: "whatsapp_text", widget: "string", default: "I want this cake"}

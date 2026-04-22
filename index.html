@@ -1,66 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3c Cakes, Cookies & Confections</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3c Cakes Admin</title>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
-<body class="bg-gray-50">
-  <div class="bg-gradient-to-r from-pink-500 to-orange-400 text-white text-center py-16 px-4">
-    <h1 class="text-4xl md:text-6xl font-bold mb-4">3c Cakes, Cookies & Confections</h1>
-    <p class="text-xl mb-8">Custom Theme Cakes for Every Celebration</p>
-    <a href="https://api.whatsapp.com/send?phone=919167047713&text=Hi%203c%20Cakes%2C%20I%20want%20to%20order" class="bg-green-500 hover:bg-green-600 px-8 py-4 rounded-full text-lg font-bold inline-block">Chat on WhatsApp</a>
-  </div>
-
-  <div class="max-w-6xl mx-auto py-16 px-4">
-    <h2 class="text-3xl font-bold text-center mb-12">Theme Cakes Gallery</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div class="h-64 bg-pink-200"></div>
-        <div class="p-6">
-          <h3 class="text-xl font-bold mb-2">Doraemon Theme Cake</h3>
-          <a href="https://api.whatsapp.com/send?phone=919167047713&text=I%20want%20Doraemon%20Theme%20Cake" class="bg-green-500 text-white px-6 py-2 rounded-full inline-block">Order on WhatsApp</a>
-        </div>
-      </div>
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div class="h-64 bg-blue-200"></div>
-        <div class="p-6">
-          <h3 class="text-xl font-bold mb-2">Unicorn Theme Cake</h3>
-          <a href="https://api.whatsapp.com/send?phone=919167047713&text=I%20want%20Unicorn%20Theme%20Cake" class="bg-green-500 text-white px-6 py-2 rounded-full inline-block">Order on WhatsApp</a>
-        </div>
-      </div>
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div class="h-64 bg-purple-200"></div>
-        <div class="p-6">
-          <h3 class="text-xl font-bold mb-2">Spiderman Theme Cake</h3>
-          <a href="https://api.whatsapp.com/send?phone=919167047713&text=I%20want%20Spiderman%20Theme%20Cake" class="bg-green-500 text-white px-6 py-2 rounded-full inline-block">Order on WhatsApp</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="bg-gray-800 text-white py-12 px-4">
-    <div class="max-w-4xl mx-auto text-center">
-      <h3 class="text-2xl font-bold mb-6">Contact Us</h3>
-      <p class="mb-2">Phone: 9167047713 / 9152042116</p>
-      <p class="mb-2">Address: SHOP NO.3, OM SAI SHRADHA CHS, ASALPHA VILLAGE, Mumbai 400072</p>
-      <p class="mb-6">Instagram: @3ccakeshop</p>
-      <a href="https://api.whatsapp.com/send?phone=919167047713&text=Hi%203c%20Cakes" class="bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full font-bold inline-block">Chat on WhatsApp</a>
-    </div>
-  </div>
-
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+<body>
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 </body>
 </html>
